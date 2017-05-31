@@ -1,0 +1,21 @@
+{
+  "data": {
+    "master_file": "/Users/ganeshj/Desktop/github/pyslides/data/master",
+    "train_file": "/Users/ganeshj/Desktop/github/pyslides/data/train",
+    "dev_file": "/Users/ganeshj/Desktop/github/pyslides/data/dev",
+    "test_file": "/Users/ganeshj/Desktop/github/pyslides/data/test",
+    "min_src_content_length": 5,
+    "max_src_content_length": 75,
+    "max_trg_length": 10,
+    "context_size": 5,
+    "strict_context_size": true,
+    "strict_context_title": true,
+    "strict_context_content": true,
+    "use_left_context": true,    
+    "use_right_context": true,
+    "categories": "business,science,computers,society,health",
+    "train_percent": 0.7,
+    "val_percent": 0.1,
+    "seed": 123
+  }
+}
